@@ -11,11 +11,11 @@
 <project path="hardware/mithorium-4.19" name="MI439-CLO/android_hardware_mithorium-4.19" remote="github" clone-depth="1" revision="udc-k4.19" />
 
 <!-- GPS -->
-<project path="hardware/qcom-caf/gps-legacy" name="AOSPA/android_hardware_qcom_gps" remote="github" revision="uvite-legacy-component" />
+<project path="hardware/qcom-caf/gps-legacy" name="MI439-CLO/android_hardware_qcom_gps" remote="github" revision="uvite-legacy-component" />
    
 <!-- Device -->
-<project path="device/xiaomi/mi439" name="MI439-CLO/device_xiaomi_mi439" remote="github" revision="udc1" />
-<project path="device/qcom/common" name="MI439-CLO/device_qcom_common" remote="github" revision="udc" />
+<project path="device/xiaomi/mi439" name="MI439-CLO/device_xiaomi_mi439" remote="github" revision="udc-2" />
+<project path="device/qcom/common" name="MI439-CLO/device_qcom_common" remote="github" revision="udc-2" />
 
 <!--- Vendor Blobs -->
 <project path="vendor/xiaomi/mi439" name="LOLZKERNEL/proprietary_vendor_xiaomi_mi439-4.19" remote="github" clone-depth="1" revision="udc" />
