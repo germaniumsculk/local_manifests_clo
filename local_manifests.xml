@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- HALs -->
+  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="aospa" revision="uvite-89xx-4.19" />
+  <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="aospa" revision="uvite-89xx-4.19" />
+  <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="aospa" revision="uvite-legacy-component" />
+  <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="aospa" revision="uvite-89xx-4.19" />
+
+  <remove-project name="AOSPA/android_hardware_qcom_wlan" />
+  <project path="hardware/qcom/wlan" name="AOSPA/android_hardware_qcom_wlan" remote="aospa" revision="topaz-taro-backup" />
+  <remove-project name="AOSPA/android_vendor_qcom-opensource_usb" />
+  <project path="vendor/qcom/opensource/usb" name="AOSPA/android_vendor_qcom-opensource_usb" remote="aospa" revision="topaz-taro-backup" />
+
+  <!-- Device trees (standalone mi439) -->
+  <project path="device/xiaomi/mi439" name="AOSPA/android_device_xiaomi_mi439" remote="github" revision="uvite" />
+
+  <!-- Vendor (xiaomi) -->
+  <project path="vendor/xiaomi" name="ThankYouMario/proprietary_vendor_xiaomi" remote="github" clone-depth="1" revision="uvite" />
+
+  <!-- Kernel -->
+  <project path="kernel/msm-4.19" name="AOSPA/android_kernel_xiaomi_sdm439" remote="github" revision="uvite" />
+
+</manifest>
