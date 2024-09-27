@@ -16,8 +16,15 @@
   <project path="device/xiaomi/mi439" name="musfiqurrahmanfahim/android_device_xiaomi_mi439_AOSPA" remote="github" revision="unity" />
 
   <!-- Vendor (xiaomi) -->
-  <project path="vendor/xiaomi" name="musfiqurrahmanfahim/android_vendor_penguin" remote="github" clone-depth="1" revision="unity" />
+  <project path="vendor/xiaomi" name="ThankYouMario/proprietary_vendor_xiaomi" remote="github" clone-depth="1" revision="uvite" />
 
+  <!-- Vendor -->
+  <remove-project name="vendor/aospa" />
+  <project path="vendor/aospa" name="android_vendor_penguin" remote="musfiqurrahmanfahim" />
+    <linkfile src="build.sh" dest="rom-build.sh" />
+    <linkfile src="json.sh" dest="generate-json.sh" />
+  </project>
+  
   <!-- Kernel -->
   <project path="kernel/msm-4.19" name="AOSPA/android_kernel_xiaomi_sdm439" remote="github" revision="uvite" />
 
