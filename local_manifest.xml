@@ -20,7 +20,7 @@
   
   <!-- Vendor -->
   <remove-project path="vendor/aospa" />
-  <project path="vendor/aospa" name="musfiqurrahmanfahim/android_vendor_penguin" remote="github" >
+  <project path="vendor/aospa" name="musfiqurrahmanfahim/android_vendor_penguin" remote="github" revision="unity" >
     <linkfile src="build.sh" dest="rom-build.sh" />
     <linkfile src="json.sh" dest="generate-json.sh" />
   </project>
