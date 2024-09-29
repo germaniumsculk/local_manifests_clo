@@ -15,6 +15,9 @@
   <!-- Device trees (standalone mi439) -->
   <project path="device/xiaomi/mi439" name="musfiqurrahmanfahim/android_device_xiaomi_mi439_AOSPA" remote="github" revision="unity" />
 
+  <!-- Vendor (xiaomi) -->
+  <project path="vendor/xiaomi" name="ThankYouMario/proprietary_vendor_xiaomi" remote="github" clone-depth="1" revision="uvite" />
+  
   <!-- Vendor -->
   <remove-project path="vendor/aospa" />
   <project path="vendor/aospa" name="musfiqurrahmanfahim/android_vendor_penguin" remote="github" >
