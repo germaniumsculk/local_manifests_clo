@@ -27,5 +27,9 @@
   
   <!-- Kernel -->
   <project path="kernel/msm-4.19" name="AOSPA/android_kernel_xiaomi_sdm439" remote="github" revision="uvite" />
-
+  
+  <!-- GMS Remove -->
+  <remove-project path="vendor/google/gms" />
+  <remove-project path="vendor/google/pixel" />
+  
 </manifest>
