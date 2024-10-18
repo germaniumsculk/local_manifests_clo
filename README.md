@@ -1,1 +1,1 @@
-git clone https://github.com/musfiqurrahmanfahim/local_manifests_clo .repo/local_manifests -b udc-2
+git clone https://github.com/germaniumsculk/local_manifests_clo .repo/local_manifests -b tpp/a14
